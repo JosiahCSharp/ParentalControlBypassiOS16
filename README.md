@@ -10,11 +10,13 @@ Uninstall Apps Blocked
 1st step:
 Run Ubuntu or your favorite Linux Operating System
 
-2nd step:
+2nd step: 
 Install libimobiledevice-utils and ideviceinstaller
 Run ideviceinstaller -U CHOOSE.ANY.USER.PACKAGE
 to uninstall any package
 
+This communicates to the iOS device using protocols defined by the device over USB. The permissions they had set were NOT sufficient to stop removal of packages which when performed disabled any controls that were interfering or preventing removal. If it prevented removal it got rid of it.
+                         
 and it would reset the Parental Controls
 on latest iOS 17 versions they have patched this
 by blocking uninstallations via this method
